@@ -10,7 +10,7 @@ import {
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 /**
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const reviewersAbi = [
   {
@@ -392,7 +392,7 @@ export const reviewersAbi = [
       { name: 'name', internalType: 'string', type: 'string', indexed: false },
       { name: 'email', internalType: 'string', type: 'string', indexed: false },
     ],
-    name: 'ReviewerQuited',
+    name: 'ReviewerQuitted',
   },
   {
     type: 'error',
@@ -465,14 +465,14 @@ export const reviewersAbi = [
 ] as const
 
 /**
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const reviewersAddress = {
-  11155111: '0x7391d87B328663A288D877de7510B44C949c47DE',
+  11155111: '0x713265af5418174A15E95C72Bb6d837955B10E05',
 } as const
 
 /**
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const reviewersConfig = {
   address: reviewersAddress,
@@ -486,7 +486,7 @@ export const reviewersConfig = {
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link reviewersAbi}__
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useReadReviewers = /*#__PURE__*/ createUseReadContract({
   abi: reviewersAbi,
@@ -496,7 +496,7 @@ export const useReadReviewers = /*#__PURE__*/ createUseReadContract({
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link reviewersAbi}__ and `functionName` set to `"getAllianceListByDoubted"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useReadReviewersGetAllianceListByDoubted =
   /*#__PURE__*/ createUseReadContract({
@@ -508,7 +508,7 @@ export const useReadReviewersGetAllianceListByDoubted =
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link reviewersAbi}__ and `functionName` set to `"getDoubtDetails"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useReadReviewersGetDoubtDetails =
   /*#__PURE__*/ createUseReadContract({
@@ -520,7 +520,7 @@ export const useReadReviewersGetDoubtDetails =
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link reviewersAbi}__ and `functionName` set to `"getOpposerListByDoubted"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useReadReviewersGetOpposerListByDoubted =
   /*#__PURE__*/ createUseReadContract({
@@ -532,7 +532,7 @@ export const useReadReviewersGetOpposerListByDoubted =
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link reviewersAbi}__ and `functionName` set to `"getReviewerInfo"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useReadReviewersGetReviewerInfo =
   /*#__PURE__*/ createUseReadContract({
@@ -544,7 +544,7 @@ export const useReadReviewersGetReviewerInfo =
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link reviewersAbi}__ and `functionName` set to `"getReviewerList"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useReadReviewersGetReviewerList =
   /*#__PURE__*/ createUseReadContract({
@@ -556,7 +556,7 @@ export const useReadReviewersGetReviewerList =
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link reviewersAbi}__ and `functionName` set to `"getReviewerListByStatus"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useReadReviewersGetReviewerListByStatus =
   /*#__PURE__*/ createUseReadContract({
@@ -568,7 +568,7 @@ export const useReadReviewersGetReviewerListByStatus =
 /**
  * Wraps __{@link useReadContract}__ with `abi` set to __{@link reviewersAbi}__ and `functionName` set to `"owner"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useReadReviewersOwner = /*#__PURE__*/ createUseReadContract({
   abi: reviewersAbi,
@@ -579,7 +579,7 @@ export const useReadReviewersOwner = /*#__PURE__*/ createUseReadContract({
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link reviewersAbi}__
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useWriteReviewers = /*#__PURE__*/ createUseWriteContract({
   abi: reviewersAbi,
@@ -589,7 +589,7 @@ export const useWriteReviewers = /*#__PURE__*/ createUseWriteContract({
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link reviewersAbi}__ and `functionName` set to `"applyReviewer"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useWriteReviewersApplyReviewer =
   /*#__PURE__*/ createUseWriteContract({
@@ -601,7 +601,7 @@ export const useWriteReviewersApplyReviewer =
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link reviewersAbi}__ and `functionName` set to `"doubt"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useWriteReviewersDoubt = /*#__PURE__*/ createUseWriteContract({
   abi: reviewersAbi,
@@ -612,7 +612,7 @@ export const useWriteReviewersDoubt = /*#__PURE__*/ createUseWriteContract({
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link reviewersAbi}__ and `functionName` set to `"quitReviewer"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useWriteReviewersQuitReviewer =
   /*#__PURE__*/ createUseWriteContract({
@@ -624,7 +624,7 @@ export const useWriteReviewersQuitReviewer =
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link reviewersAbi}__ and `functionName` set to `"renounceOwnership"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useWriteReviewersRenounceOwnership =
   /*#__PURE__*/ createUseWriteContract({
@@ -636,7 +636,7 @@ export const useWriteReviewersRenounceOwnership =
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link reviewersAbi}__ and `functionName` set to `"review"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useWriteReviewersReview = /*#__PURE__*/ createUseWriteContract({
   abi: reviewersAbi,
@@ -647,7 +647,7 @@ export const useWriteReviewersReview = /*#__PURE__*/ createUseWriteContract({
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link reviewersAbi}__ and `functionName` set to `"reviewDoubt"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useWriteReviewersReviewDoubt =
   /*#__PURE__*/ createUseWriteContract({
@@ -659,7 +659,7 @@ export const useWriteReviewersReviewDoubt =
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link reviewersAbi}__ and `functionName` set to `"transferOwnership"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useWriteReviewersTransferOwnership =
   /*#__PURE__*/ createUseWriteContract({
@@ -671,7 +671,7 @@ export const useWriteReviewersTransferOwnership =
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link reviewersAbi}__ and `functionName` set to `"updateDoubtPassRatio"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useWriteReviewersUpdateDoubtPassRatio =
   /*#__PURE__*/ createUseWriteContract({
@@ -683,7 +683,7 @@ export const useWriteReviewersUpdateDoubtPassRatio =
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link reviewersAbi}__ and `functionName` set to `"updateInfo"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useWriteReviewersUpdateInfo = /*#__PURE__*/ createUseWriteContract(
   { abi: reviewersAbi, address: reviewersAddress, functionName: 'updateInfo' },
@@ -692,7 +692,7 @@ export const useWriteReviewersUpdateInfo = /*#__PURE__*/ createUseWriteContract(
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link reviewersAbi}__ and `functionName` set to `"updateReviewerPassRatio"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useWriteReviewersUpdateReviewerPassRatio =
   /*#__PURE__*/ createUseWriteContract({
@@ -704,7 +704,7 @@ export const useWriteReviewersUpdateReviewerPassRatio =
 /**
  * Wraps __{@link useWriteContract}__ with `abi` set to __{@link reviewersAbi}__ and `functionName` set to `"updateTimeGap"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useWriteReviewersUpdateTimeGap =
   /*#__PURE__*/ createUseWriteContract({
@@ -716,7 +716,7 @@ export const useWriteReviewersUpdateTimeGap =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link reviewersAbi}__
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useSimulateReviewers = /*#__PURE__*/ createUseSimulateContract({
   abi: reviewersAbi,
@@ -726,7 +726,7 @@ export const useSimulateReviewers = /*#__PURE__*/ createUseSimulateContract({
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link reviewersAbi}__ and `functionName` set to `"applyReviewer"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useSimulateReviewersApplyReviewer =
   /*#__PURE__*/ createUseSimulateContract({
@@ -738,7 +738,7 @@ export const useSimulateReviewersApplyReviewer =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link reviewersAbi}__ and `functionName` set to `"doubt"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useSimulateReviewersDoubt =
   /*#__PURE__*/ createUseSimulateContract({
@@ -750,7 +750,7 @@ export const useSimulateReviewersDoubt =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link reviewersAbi}__ and `functionName` set to `"quitReviewer"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useSimulateReviewersQuitReviewer =
   /*#__PURE__*/ createUseSimulateContract({
@@ -762,7 +762,7 @@ export const useSimulateReviewersQuitReviewer =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link reviewersAbi}__ and `functionName` set to `"renounceOwnership"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useSimulateReviewersRenounceOwnership =
   /*#__PURE__*/ createUseSimulateContract({
@@ -774,7 +774,7 @@ export const useSimulateReviewersRenounceOwnership =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link reviewersAbi}__ and `functionName` set to `"review"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useSimulateReviewersReview =
   /*#__PURE__*/ createUseSimulateContract({
@@ -786,7 +786,7 @@ export const useSimulateReviewersReview =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link reviewersAbi}__ and `functionName` set to `"reviewDoubt"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useSimulateReviewersReviewDoubt =
   /*#__PURE__*/ createUseSimulateContract({
@@ -798,7 +798,7 @@ export const useSimulateReviewersReviewDoubt =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link reviewersAbi}__ and `functionName` set to `"transferOwnership"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useSimulateReviewersTransferOwnership =
   /*#__PURE__*/ createUseSimulateContract({
@@ -810,7 +810,7 @@ export const useSimulateReviewersTransferOwnership =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link reviewersAbi}__ and `functionName` set to `"updateDoubtPassRatio"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useSimulateReviewersUpdateDoubtPassRatio =
   /*#__PURE__*/ createUseSimulateContract({
@@ -822,7 +822,7 @@ export const useSimulateReviewersUpdateDoubtPassRatio =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link reviewersAbi}__ and `functionName` set to `"updateInfo"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useSimulateReviewersUpdateInfo =
   /*#__PURE__*/ createUseSimulateContract({
@@ -834,7 +834,7 @@ export const useSimulateReviewersUpdateInfo =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link reviewersAbi}__ and `functionName` set to `"updateReviewerPassRatio"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useSimulateReviewersUpdateReviewerPassRatio =
   /*#__PURE__*/ createUseSimulateContract({
@@ -846,7 +846,7 @@ export const useSimulateReviewersUpdateReviewerPassRatio =
 /**
  * Wraps __{@link useSimulateContract}__ with `abi` set to __{@link reviewersAbi}__ and `functionName` set to `"updateTimeGap"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useSimulateReviewersUpdateTimeGap =
   /*#__PURE__*/ createUseSimulateContract({
@@ -858,7 +858,7 @@ export const useSimulateReviewersUpdateTimeGap =
 /**
  * Wraps __{@link useWatchContractEvent}__ with `abi` set to __{@link reviewersAbi}__
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useWatchReviewersEvent = /*#__PURE__*/ createUseWatchContractEvent(
   { abi: reviewersAbi, address: reviewersAddress },
@@ -867,7 +867,7 @@ export const useWatchReviewersEvent = /*#__PURE__*/ createUseWatchContractEvent(
 /**
  * Wraps __{@link useWatchContractEvent}__ with `abi` set to __{@link reviewersAbi}__ and `eventName` set to `"ApplicationApproved"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useWatchReviewersApplicationApprovedEvent =
   /*#__PURE__*/ createUseWatchContractEvent({
@@ -879,7 +879,7 @@ export const useWatchReviewersApplicationApprovedEvent =
 /**
  * Wraps __{@link useWatchContractEvent}__ with `abi` set to __{@link reviewersAbi}__ and `eventName` set to `"ApplicationDeclined"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useWatchReviewersApplicationDeclinedEvent =
   /*#__PURE__*/ createUseWatchContractEvent({
@@ -891,7 +891,7 @@ export const useWatchReviewersApplicationDeclinedEvent =
 /**
  * Wraps __{@link useWatchContractEvent}__ with `abi` set to __{@link reviewersAbi}__ and `eventName` set to `"ApplicationReviewed"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useWatchReviewersApplicationReviewedEvent =
   /*#__PURE__*/ createUseWatchContractEvent({
@@ -903,7 +903,7 @@ export const useWatchReviewersApplicationReviewedEvent =
 /**
  * Wraps __{@link useWatchContractEvent}__ with `abi` set to __{@link reviewersAbi}__ and `eventName` set to `"DoubtClosed"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useWatchReviewersDoubtClosedEvent =
   /*#__PURE__*/ createUseWatchContractEvent({
@@ -915,7 +915,7 @@ export const useWatchReviewersDoubtClosedEvent =
 /**
  * Wraps __{@link useWatchContractEvent}__ with `abi` set to __{@link reviewersAbi}__ and `eventName` set to `"DoubtRaised"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useWatchReviewersDoubtRaisedEvent =
   /*#__PURE__*/ createUseWatchContractEvent({
@@ -927,7 +927,7 @@ export const useWatchReviewersDoubtRaisedEvent =
 /**
  * Wraps __{@link useWatchContractEvent}__ with `abi` set to __{@link reviewersAbi}__ and `eventName` set to `"DoubtReviewed"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useWatchReviewersDoubtReviewedEvent =
   /*#__PURE__*/ createUseWatchContractEvent({
@@ -939,7 +939,7 @@ export const useWatchReviewersDoubtReviewedEvent =
 /**
  * Wraps __{@link useWatchContractEvent}__ with `abi` set to __{@link reviewersAbi}__ and `eventName` set to `"NewApplication"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useWatchReviewersNewApplicationEvent =
   /*#__PURE__*/ createUseWatchContractEvent({
@@ -951,7 +951,7 @@ export const useWatchReviewersNewApplicationEvent =
 /**
  * Wraps __{@link useWatchContractEvent}__ with `abi` set to __{@link reviewersAbi}__ and `eventName` set to `"OwnershipTransferred"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useWatchReviewersOwnershipTransferredEvent =
   /*#__PURE__*/ createUseWatchContractEvent({
@@ -963,7 +963,7 @@ export const useWatchReviewersOwnershipTransferredEvent =
 /**
  * Wraps __{@link useWatchContractEvent}__ with `abi` set to __{@link reviewersAbi}__ and `eventName` set to `"ReviewerExpelled"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useWatchReviewersReviewerExpelledEvent =
   /*#__PURE__*/ createUseWatchContractEvent({
@@ -975,7 +975,7 @@ export const useWatchReviewersReviewerExpelledEvent =
 /**
  * Wraps __{@link useWatchContractEvent}__ with `abi` set to __{@link reviewersAbi}__ and `eventName` set to `"ReviewerInfoUpdated"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
 export const useWatchReviewersReviewerInfoUpdatedEvent =
   /*#__PURE__*/ createUseWatchContractEvent({
@@ -985,13 +985,13 @@ export const useWatchReviewersReviewerInfoUpdatedEvent =
   })
 
 /**
- * Wraps __{@link useWatchContractEvent}__ with `abi` set to __{@link reviewersAbi}__ and `eventName` set to `"ReviewerQuited"`
+ * Wraps __{@link useWatchContractEvent}__ with `abi` set to __{@link reviewersAbi}__ and `eventName` set to `"ReviewerQuitted"`
  *
- * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x7391d87B328663A288D877de7510B44C949c47DE)
+ * [__View Contract on Sepolia Etherscan__](https://sepolia.etherscan.io/address/0x713265af5418174A15E95C72Bb6d837955B10E05)
  */
-export const useWatchReviewersReviewerQuitedEvent =
+export const useWatchReviewersReviewerQuittedEvent =
   /*#__PURE__*/ createUseWatchContractEvent({
     abi: reviewersAbi,
     address: reviewersAddress,
-    eventName: 'ReviewerQuited',
+    eventName: 'ReviewerQuitted',
   })

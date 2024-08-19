@@ -66,9 +66,9 @@
 
 ## 项目链接
 
-| 链接条目 | 链接地址                                     |
-| -------- | -------------------------------------------- |
-| 介绍 PPT | https://github.com/Ric-Li-C/charity_dao/.ppt |
-| 源码仓库 | https://github.com/Ric-Li-C/charity_dao      |
-| 演示视频 | https://github.com/Ric-Li-C/charity_dao/.mp4 |
-| 在线体验 | <准备中>                                     |
+| 链接条目 | 链接地址                                                             |
+| -------- | -------------------------------------------------------------------- |
+| 介绍 PPT | https://github.com/Ric-Li-C/Charity-DAO/public/charity_dao_demo.pptx |
+| 源码仓库 | https://github.com/Ric-Li-C/Charity-DAO                              |
+| 演示视频 | <准备中>                                                             |
+| 在线体验 | <准备中>                                                             |

@@ -71,4 +71,4 @@
 | 介绍 PPT | https://github.com/Ric-Li-C/Charity-DAO/public/charity_dao_demo.pptx |
 | 源码仓库 | https://github.com/Ric-Li-C/Charity-DAO                              |
 | 演示视频 | <准备中>                                                             |
-| 在线体验 | <准备中>                                                             |
+| 在线体验 | https://charity-dao-pearl.vercel.app                                 |

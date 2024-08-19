@@ -12,7 +12,7 @@ interface ReviewerInfoProps {
 		telegram: string
 		status: number
 		applicationTime: bigint
-		reason: string
+		quitReason: string
 	}
 }
 
@@ -54,11 +54,11 @@ const ReviewerInfo: React.FC<ReviewerInfoProps> = ({
 			<div className="text-gray-700 mb-2">
 				{StatusText[reviewerInfo.status]}
 			</div>
-			{reviewerInfo.reason && (
+			{reviewerInfo.quitReason && (
 				<>
 					<div className="text-gray-700 mb-2">Reason:</div>
 					<div className="text-gray-700 mb-2">
-						{reviewerInfo.reason}
+						{reviewerInfo.quitReason}
 					</div>
 				</>
 			)}
